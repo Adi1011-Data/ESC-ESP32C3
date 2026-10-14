@@ -47,7 +47,7 @@ D6 (GPIO21) is left free. It is the serial transmit pin and toggles while the ch
 ## Assembly
 
 1. Solder the MPU6050, MOSFETs, diodes, and passives.
-2. Plug the XIAO ESP32-C3 into J1 and J3. Do not reverse it: 5V and D0 share one end of the module.
+2. Plug the XIAO ESP32-C3 into J1 and J3.Place ESP32C3 with reference to "R" and "L" on the PCB. Do not reverse it: 5V and D0 share one end of the module.
 3. Solder one 720 coreless motor to each of M1–M4. The motor positive lead goes to the BAT+ pad of that pair.
 4. Connect the flight battery at the BAT pads.
 5. Power the XIAO, join its Wi-Fi from the ESP-Drone app, and arm the motors only after the propellers are clear.
